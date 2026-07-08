@@ -1,270 +1,311 @@
 # 🧭 Career Compass AI
 
-### *Your Personal AI Career Mentor*
+<p align="center">
 
-Career Compass AI is a professional, AI-powered **Learning Buddy** built with
-**Streamlit** and the **Google Gemini API**. It acts as a friendly career
-mentor — helping students and early-career professionals explore careers,
-build learning roadmaps, prepare for interviews, and stay motivated, all
-through a modern, gradient-styled dashboard interface.
+### **Your Personal AI Career Mentor**
 
-![Career Compass AI Logo](assets/logo.png)
+An AI-powered career guidance platform built with **Streamlit** and **Google Gemini API** to help students explore careers, build personalized learning roadmaps, prepare for interviews, improve resumes, and stay motivated throughout their learning journey.
+
+</p>
 
 ---
 
-## 📋 Table of Contents
+## 🌟 Project Highlights
 
-- [Project Overview](#-project-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Requirements](#-requirements)
-- [How to Get a Gemini API Key](#-how-to-get-a-gemini-api-key)
-- [Installation](#-installation)
-- [How to Run Locally](#-how-to-run-locally)
-- [Deployment on Streamlit Cloud](#-deployment-on-streamlit-cloud)
-- [Folder Structure](#-folder-structure)
-- [Screenshots](#-screenshots)
-- [Documentation Files](#-documentation-files)
-- [Future Improvements](#-future-improvements)
-- [License](#-license)
-
----
-
-## 🎯 Project Overview
-
-Career Compass AI was built to demonstrate a complete, submission-ready AI
-learning application: a polished frontend, a well-structured backend, a
-consistent AI persona, and thoughtful prompt engineering — all wrapped in a
-professional, portfolio-worthy UI.
-
-The app uses **Google Gemini** to power ten distinct career-guidance
-features, each with its own purpose-built prompt template, so the AI's
-responses stay focused, structured, and genuinely useful rather than vague
-or generic.
+- 🤖 AI-Powered Career Mentor
+- 🎯 Beginner-Friendly Career Explanations
+- 🛠 Personalized Skill Recommendations
+- 🗺 Step-by-Step Learning Roadmaps
+- 📅 Daily Study Planner
+- 🎤 AI-Generated Interview Questions
+- 📄 Resume Improvement Tips
+- 📝 Interactive Quiz Generator
+- 💬 Ask Anything Career Assistant
+- 📚 Learning Resources Recommendations
+- ✨ Motivation Quotes
+- 🎨 Modern Responsive Streamlit UI
 
 ---
 
-## ✨ Features
+## 📸 Preview
 
-| # | Feature | Description |
-|---|---|---|
-| 1 | 🎯 **Explain Career** | Get a clear, beginner-friendly explanation of any career path. |
-| 2 | 🛠️ **Required Skills** | See the technical and soft skills needed for a career. |
-| 3 | 🗺️ **Learning Roadmap** | Get a phase-by-phase roadmap from beginner to job-ready. |
-| 4 | 📅 **Daily Study Plan** | Generate a realistic weekly study plan based on your available hours. |
-| 5 | 🎤 **Interview Questions** | Practice with common interview questions for your experience level. |
-| 6 | 📄 **Resume Tips** | Get tailored resume-writing advice and ATS optimization tips. |
-| 7 | 📝 **Generate Quiz** | Test your knowledge with an AI-generated multiple-choice quiz. |
-| 8 | 💬 **Ask Anything** | Ask your AI mentor any career or learning-related question. |
-| 9 | ✨ **Motivation Quote** | Get an instant, mood-based motivational boost. |
-| 10 | 📚 **Learning Resources** | Get curated courses, books, YouTube channels, and communities. |
+> *(Add your screenshots after completing the project)*
 
-**Plus:** Sidebar navigation, icons & emojis throughout, a professional
-footer, an About section, loading spinners, robust error handling, and
-input validation on every form.
+| Home | Roadmap |
+|------|----------|
+| ![](screenshots/01_home.png) | ![](screenshots/04_learning_roadmap.png) |
+
+| Quiz | Ask Anything |
+|------|---------------|
+| ![](screenshots/07_generate_quiz.png) | ![](screenshots/08_ask_anything.png) |
 
 ---
 
-## 🧰 Tech Stack
+# 📖 Project Overview
 
-**Frontend**
-- [Streamlit](https://streamlit.io/) — Python web app framework
-- Custom CSS — gradients, cards, responsive layout
-- Modern dashboard-style UI
+Career Compass AI is an intelligent AI Learning Buddy designed to guide students in choosing and preparing for their dream careers.
 
-**Backend**
-- Python 3.9+
-- [Google Gemini API](https://ai.google.dev/) via `google-generativeai` SDK
-- `python-dotenv` for environment variable management
+Unlike traditional career guidance systems, Career Compass AI provides personalized AI-generated responses using **Google Gemini**, allowing users to:
+
+- Understand different career paths
+- Learn required technical & soft skills
+- Build personalized study plans
+- Prepare for interviews
+- Improve resumes
+- Practice quizzes
+- Ask career-related questions
+- Stay motivated
+
+The project combines **Artificial Intelligence**, **Prompt Engineering**, and **Modern UI Design** into one complete application.
 
 ---
 
-## ✅ Requirements
+# ✨ Features
 
-- Python **3.9 or higher**
-- A free **Google Gemini API key**
-- pip (Python package manager)
-- Internet connection (to reach the Gemini API)
+| Feature | Description |
+|----------|-------------|
+| 🎯 Explain Career | Understand any career in simple language |
+| 🛠 Required Skills | Learn technical and soft skills |
+| 🗺 Learning Roadmap | Complete roadmap from beginner to expert |
+| 📅 Daily Study Plan | Personalized study schedule |
+| 🎤 Interview Questions | AI-generated interview preparation |
+| 💼 Resume Tips | ATS-friendly resume suggestions |
+| 📝 Generate Quiz | Multiple-choice quiz with answers |
+| 💬 Ask Anything | Free-form AI career assistant |
+| ✨ Motivation | Mood-based motivational quotes |
+| 📚 Learning Resources | Books, YouTube, Courses & Communities |
 
-All Python dependencies are listed in [`requirements.txt`](requirements.txt):
+---
 
+# 🛠 Tech Stack
+
+### Frontend
+
+- Streamlit
+- Custom CSS
+- Responsive UI
+- HTML/CSS Components
+
+### Backend
+
+- Python
+- Google Gemini API
+- python-dotenv
+
+---
+
+# 📂 Project Structure
+
+```text
+CareerCompassAI/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .env.example
+├── .gitignore
+├── LICENSE
+│
+├── assets/
+│   └── logo.png
+│
+├── screenshots/
+│   ├── 01_home.png
+│   ├── 02_sidebar.png
+│   ├── 03_explain_career.png
+│   ├── 04_learning_roadmap.png
+│   ├── 05_daily_study_plan.png
+│   ├── 06_interview_questions.png
+│   ├── 07_generate_quiz.png
+│   ├── 08_ask_anything.png
+│   ├── 09_motivation_quote.png
+│   ├── 10_loading_spinner.png
+│   ├── 11_error_handling.png
+│   └── 12_about.png
+│
+├── persona.md
+├── prompts.md
+├── quiz.md
+├── reflection.md
+├── sample_conversation.md
+├── screenshots_guide.md
+└── submission_report.md
 ```
-streamlit>=1.32.0
-google-generativeai>=0.5.0
-python-dotenv>=1.0.1
+
+---
+
+# ⚙ Requirements
+
+- Python 3.10+
+- Streamlit
+- Google Gemini API Key
+- Internet Connection
+
+---
+
+# 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/ddikshamitraa/CareerCompass-AI.git
+```
+
+Go inside project
+
+```bash
+cd CareerCompassAI
+```
+
+Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+Activate
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+Install Dependencies
+
+```bash
+pip install -r requirements.txt
 ```
 
 ---
 
-## 🔑 How to Get a Gemini API Key
+# 🔑 Configure Gemini API
 
-1. Go to [Google AI Studio](https://aistudio.google.com/app/apikey).
-2. Sign in with your Google account.
-3. Click **"Create API Key"**.
-4. Copy the generated key.
-5. Paste it into your `.env` file as shown in the [Installation](#-installation)
-   section below.
+Rename
 
-> 💡 Gemini offers a generous free tier, which is more than enough for
-> running and testing this app.
+```text
+.env.example
+```
 
----
+to
 
-## ⚙️ Installation
+```text
+.env
+```
 
-1. **Clone or extract the project**
+Then add your Gemini API Key
 
-   ```bash
-   git clone <your-repo-url>
-   cd CareerCompassAI
-   ```
+```text
+GEMINI_API_KEY=YOUR_API_KEY_HERE
+```
 
-2. **Create a virtual environment (recommended)**
+You can get your free API key from:
 
-   ```bash
-   python -m venv venv
-
-   # Activate it:
-   # Windows:
-   venv\Scripts\activate
-   # macOS/Linux:
-   source venv/bin/activate
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Set up your environment variables**
-
-   ```bash
-   cp .env.example .env
-   ```
-
-   Then open `.env` and add your Gemini API key:
-
-   ```
-   GEMINI_API_KEY=your_actual_api_key_here
-   ```
+https://aistudio.google.com/app/apikey
 
 ---
 
-## ▶️ How to Run Locally
-
-Once installed and configured, run:
+# ▶ Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-Streamlit will start a local server and automatically open the app in your
-browser at:
+Open
 
 ```
 http://localhost:8501
 ```
 
-If the API key is missing or invalid, the app will still run and display a
-clear warning message instead of crashing — you'll see a 🔴 status indicator
-in the sidebar.
-
 ---
 
-## ☁️ Deployment on Streamlit Cloud
+# ☁ Deploy on Streamlit Cloud
 
-1. Push this project to a **GitHub repository**.
-2. Go to [Streamlit Community Cloud](https://streamlit.io/cloud) and sign in.
-3. Click **"New app"** and select your repository, branch, and `app.py` as
-   the entry point.
-4. Under **"Advanced settings" → "Secrets"**, add your API key in TOML format:
+1. Push project to GitHub
+2. Open Streamlit Community Cloud
+3. Create New App
+4. Select Repository
+5. Select `app.py`
+6. Add Secret
 
-   ```toml
-   GEMINI_API_KEY = "your_actual_api_key_here"
-   ```
-
-5. Click **"Deploy"**. Streamlit Cloud will install dependencies from
-   `requirements.txt` automatically and launch your app with a public URL.
-
-> 🔒 **Never commit your real `.env` file or API key to GitHub.** The
-> `.gitignore` file in this project already excludes `.env` by default.
-
----
-
-## 📁 Folder Structure
-
-```
-CareerCompassAI/
-│
-├── app.py                     # Main Streamlit application
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation (this file)
-├── .env.example                # Example environment variable file
-├── .gitignore                  # Git ignore rules
-├── LICENSE                     # MIT License
-│
-├── assets/
-│   └── logo.png                # App logo / placeholder branding image
-│
-├── persona.md                  # AI mentor persona definition
-├── prompts.md                  # 5 reusable prompt templates
-├── quiz.md                     # Sample quiz with answers
-├── reflection.md                # Project reflection (strengths/limitations/improvements)
-├── sample_conversation.md       # Realistic student-AI conversation
-├── screenshots_guide.md         # Guide for required submission screenshots
-└── submission_report.md         # Final submission report
+```toml
+GEMINI_API_KEY="YOUR_API_KEY"
 ```
 
----
-
-## 🖼️ Screenshots
-
-> See [`screenshots_guide.md`](screenshots_guide.md) for the full list of
-> recommended screenshots to capture. Once captured, place them in a
-> `screenshots/` folder and reference them below:
-
-```markdown
-![Home Page](screenshots/01_home.png)
-![Learning Roadmap](screenshots/04_learning_roadmap.png)
-![Generate Quiz](screenshots/07_generate_quiz.png)
-```
+7. Click Deploy
 
 ---
 
-## 📚 Documentation Files
+# 📚 Documentation
 
-| File | Purpose |
-|---|---|
-| `persona.md` | Defines the AI mentor's personality and tone |
-| `prompts.md` | 5 reusable, parameterized prompt templates |
-| `quiz.md` | A full sample quiz with correct answers |
-| `sample_conversation.md` | A realistic end-to-end student-AI conversation |
-| `reflection.md` | 300–400 word reflection on the project |
-| `screenshots_guide.md` | Exact screenshots needed for submission |
-| `submission_report.md` | Final markdown submission report |
-
----
-
-## 🚀 Future Improvements
-
-- 👤 User accounts with saved roadmaps and progress tracking
-- 🧠 Persistent chat memory for more natural, ongoing mentorship
-- 📄 Export roadmaps, study plans, and resumes as downloadable PDFs
-- 🔊 Voice input and text-to-speech output
-- 📊 Integration with live job market/salary data APIs
-- 🌐 Multi-language support
+| File | Description |
+|------|-------------|
+| persona.md | AI Buddy Persona |
+| prompts.md | Prompt Templates |
+| quiz.md | Sample Quiz |
+| reflection.md | Reflection |
+| sample_conversation.md | Sample Conversation |
+| screenshots_guide.md | Screenshot Guide |
+| submission_report.md | Final Report |
 
 ---
 
-## 📄 License
+# 📈 Future Improvements
 
-This project is licensed under the **MIT License** — see [`LICENSE`](LICENSE)
-for details.
+- 👤 User Authentication
+- 📊 Learning Progress Dashboard
+- 💾 Save Career Roadmaps
+- 📄 Export Roadmaps as PDF
+- 🎙 Voice Assistant
+- 🔊 Text-to-Speech
+- 🤖 Resume Analyzer
+- 📈 Skill Progress Tracker
+- 🌐 Multi-language Support
+- 📱 Mobile Responsive Layout
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions and feature requests are always welcome.
+
+Feel free to fork this repository and submit a pull request.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the **LICENSE** file for details.
+
+---
+
+# 👩‍💻 Developer
+
+## Diksha Mitra
+
+Computer Science Engineering Student
+
+GitHub:
+https://github.com/ddikshamitraa25
 
 ---
 
 <p align="center">
-🧭 <b>Career Compass AI</b> — Your Personal AI Career Mentor<br>
-Built with Streamlit &amp; Google Gemini API
+
+### 🧭 Career Compass AI
+
+**Your Personal AI Career Mentor**
+
+Built with ❤️ using **Streamlit** & **Google Gemini API**
+
+© 2026 Diksha Mitra
+
 </p>
