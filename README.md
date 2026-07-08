@@ -29,7 +29,6 @@ An AI-powered career guidance platform built with **Streamlit** and **Google Gem
 
 ## 📸 Preview
 
-> *(Add your screenshots after completing the project)*
 
 | Home | Roadmap |
 |------|----------|
